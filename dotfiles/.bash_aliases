@@ -1,0 +1,11 @@
+#aliases
+alias v='vim'
+alias ra='ranger'
+alias w3mm='w3m https://duckduckgo.com/lite'
+alias apti='sudo apt install'
+alias aptr='sudo apt remove'
+alias aptp='sudo apt purge'
+alias apts='sudo apt search'
+alias aptsh='sudo apt show'
+alias aptar='sudo apt autoremove'
+alias aptup='sudo apt update && sudo apt upgrade'

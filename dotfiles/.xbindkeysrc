@@ -1,0 +1,19 @@
+# ~/.xbindkeysrc
+
+"sudo light -U 6"
+    m:0x0 + c:72
+    F6
+"sudo light -A 6"
+    m:0x0 + c:73
+    F7
+"pactl set-sink-mute @DEFAULT_SINK@ toggle"
+    m:0x0 + c:74
+    F8
+"pactl set-sink-volume @DEFAULT_SINK@ -1500"
+    m:0x0 + c:75
+    F9
+"pactl set-sink-volume @DEFAULT_SINK@ +1500"
+    m:0x0 + c:76
+"touchtoggle"
+    m:0x0 + c:71
+    F5

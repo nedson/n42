@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# wrapper to prevent screen blanking
+
+usage() {
+  printf "%s\n" "Usage: ${0##*/} on|off"
+  exit 1
+}
+
+case $1 in
+  on) xset dpms 0 0 0
+      xautolock -disable
+      ;;
+ off) xautolock -enable
+      xset dpms 900 900 900
+      ;;
+   *) usage 
+      ;;
+esac
+

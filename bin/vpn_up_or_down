@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if ip addr | grep tun0 > /dev/null
+then
+	echo 'v: yes'
+else
+	echo 'v: no'
+fi
